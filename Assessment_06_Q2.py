@@ -1,4 +1,4 @@
-import numpy as np
+dhgfj import numpy as np
 from sklearn.linear_model import LinearRegression
 
 x = np.array([28, 23, 32, 35, 29, 30, 27, 34, 32]).reshape((-1, 1))
