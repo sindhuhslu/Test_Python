@@ -6,3 +6,4 @@
 sting = "$#@|~aslbagjkels nspielbiack ipnzqnmyxrclwqpiofpgwirmvoiupq riepwqdjoi pioack o ocpalsig====%%%**>"
 
 print(sting[-11:4:-7])
+###
