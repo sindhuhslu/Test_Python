@@ -7,6 +7,14 @@
 
 # < your solution for Task 1a >
 
+car_trips = [500.455, 23.45, 986.4567, 12.55, 234.8675, 0.621331, 32.6794]
+
+car_trips_new = [trip / 0.621371 for trip in car_trips]
+
+print(1, car_trips_new)
+
+
+
 #Given the following list of car trips in miles
 
 car_trips = [500.455, 23.45, 986.4567, 12.55, 234.8675, 0.621331, 32.6794]
@@ -24,6 +32,12 @@ print(1, car_trips_new)
 # Task 1b ############
 
 # < your solution for Task 1b >
+
+formated_car_trips_new = [round(trip, 1) for trip in car_trips_new]
+
+print(2, formated_car_trips_new)
+
+
 #task 1b:
 #reformat the resulting list kilometers so that only ONE decimal place is displayed
 # This task should also be solved with list comprehension
