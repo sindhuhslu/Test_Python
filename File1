@@ -1,1 +1,45 @@
+#TASKS ARE IN BETWEEN THE CODE. I can only go to question2 after solving question1 tasks.
+
+# Copy your solutions (Task 1a, Task 1b) into the text field below. Separate the two solutions clearly within the text field with:
+
+######################
+# Task 1a ############
+
+# < your solution for Task 1a >
+
+#Given the following list of car trips in miles
+
+car_trips = [500.455, 23.45, 986.4567, 12.55, 234.8675, 0.621331, 32.6794]
+
+#Task 1a:
+#Change(i.e. program) with a list comprehension all given car trips in miles in a list of kilometre
+# The following applies: 1km = 0.621371 miles
+car_trips_new = []
+# car_trips_new = ********** your solution **************
+print(1, car_trips_new)
+
+
+
+######################
+# Task 1b ############
+
+# < your solution for Task 1b >
+#task 1b:
+#reformat the resulting list kilometers so that only ONE decimal place is displayed
+# This task should also be solved with list comprehension
+
+
+# car_trips_new = [805.4045006928227, 37.73912847558061, 1587.5486625542549, 20.19727344855167,
+#                  377.9827188587816, 0.9999356262200841, 52.592412584430235]
+
+#the solution list must contain float numbers NOT Strings
+
+formated_car_trips_new = []
+# formated_car_trips_new = ********** your solution **************
+print(2, formated_car_trips_new)
+
+#the correct solution should be something like this:
+# 2[805.4, 37.7, 1587.5, 20.2, 378.0, 1.0, 52.6]
+
+#Solution:
 
